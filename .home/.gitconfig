@@ -1,0 +1,13 @@
+
+            [core]
+                    excludesFile = ~/.gitignore
+                    quotepath = off
+                    checkStat = minimal
+            [pull]
+                    rebase = false
+            [user]
+                    name = efterlow
+                    email = efter.low@sinchew.com.my
+            [credential]
+                    helper = "!f() { echo \"username=$(cat /psb/tokens/.github)\npassword=\"; }; f"
+        

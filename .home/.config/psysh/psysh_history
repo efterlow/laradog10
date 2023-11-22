@@ -1,0 +1,11 @@
+_HiStOrY_V2_
+DB::select("SELECT\040name\040FROM\040sqlite_master\040WHERE\040type='table'\040ORDER\040BY\040name;")
+Schema::getColumnListing('dogs');
+exit
+DB::select("SELECT\040name\040FROM\040sqlite_master\040WHERE\040type='table'\040ORDER\040BY\040name;")
+exit
+Schema::getColumnListing('dogs');
+DB::select("SELECT\040*\040FROM\040DOGS;")
+DB::select("SELECT\040*\040FROM\040DOGS;")
+DB::select("SELECT\040*\040FROM\040DOGS;")
+exit
